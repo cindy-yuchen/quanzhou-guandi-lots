@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@plugin "tailwind-scrollbar";
+
+@theme {
+  --color-temple-red: #7A1F1F;
+  --color-temple-gold: #C9A35A;
+  --color-temple-wood: #4B3527;
+  --color-temple-ash: #E8DDC8;
+  --color-temple-dark: #2F3438;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #E8DDC8;
+  font-family: "STZhongsong", "SimSun", "PMingLiU", serif;
+}
+
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.markdown-body p {
+  margin-bottom: 1em;
+}
+
+.markdown-body-vertical p {
+  margin-left: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body-vertical strong {
+  color: #8b2b1a;
+  font-weight: bold;
+}
+
+.markdown-body-vertical ul {
+  margin-left: 1.5em;
+  padding-top: 1em;
+}
+
+.markdown-body-vertical li {
+  margin-left: 0.5em;
+}
+

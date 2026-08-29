@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+
+# 密钥文件：绝不提交，防止 API Key 泄露
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Cloudflare 本地产物
+.wrangler/
